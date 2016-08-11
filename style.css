@@ -19,10 +19,7 @@ body {
 	background: url(images/bpwalpaper.jpg);
 	margin: 0;
 	padding: 0;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
+
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 16px;
 	
@@ -39,21 +36,13 @@ body {
 	text-indent: 200px;
 	display: block;
 	float: left;
-	
 	background-image: url(images/arrowR.png);
 	background-repeat: no-repeat;
 	background-position: 665px 50px;
 	padding-right: 300px;
 	margin-bottom: 1px;
 	height: 60px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
+
 	min-width: 700px;
 }
 #css-zen-garden .page-wrapper #zen-intro header h2 {
@@ -70,22 +59,11 @@ body {
 	height: 50px;
 	padding: 20px;
 	text-align: left;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: solid;
-	border-left-style: none;
-	border-top-color: #000;
-	border-right-color: #000;
-	border-bottom-color: #000;
-	border-left-color: #000;
+
 	min-width: 940px;
 }
 .supporting {
-	border: thin solid #000000;
+	
 	float: left;
 	position: relative;
 	width: 100%;
@@ -100,9 +78,8 @@ body {
 	top: 400px;
 	width: 50%;
 	z-index: 4;
-	border: thin solid #F36;
 	margin: auto;
-		background-image: url(images/backgBprint2.png);
+		background-image: url(images/topleftimg.png);
 	background-repeat: no-repeat;
 	background-position: 10px 10px;
 	padding-top: 200px;
@@ -111,7 +88,7 @@ body {
 	padding-left: 0px;
 }
 .explanation {
-	border: thin solid #33FF66;
+	
 	float: left;
 	margin-left: 1.5%;
 	max-width: 600px;
@@ -131,11 +108,7 @@ body {
 	width: 50%;
 	z-index: 4;
 	margin: auto;
-		-webkit-transition: all 1s linear .5s;
-	-moz-transition: all 1s linear .5s;
-	-ms-transition: all 1s linear .5s;
-	-o-transition: all 1s linear .5s;
-	transition: all 1s linear .5s;
+		
 }
 .requirements {
 	clear: left;
@@ -146,12 +119,12 @@ body {
 	top: 1400px;
 	width: 50%;
 	z-index: 4;
-	border: thin solid #F36;
+
 	margin: auto;
 	
 	}
 	.benefits {
-	border: thin solid #00FF66;
+	
 	float: left;
 	margin-left: 1.5%;
 	max-width: 600px;
@@ -159,9 +132,13 @@ body {
 	position: absolute;
 	left: 56%;
 	top: 800px;
+		padding-bottom: 500px;
+		background-image: url(images/blueprint1.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
 	}
 .design-selection {
-	border: thin solid #0000FF;
+	
 	float: none;
 	margin-left: 1.5%;
 	max-width: 495px;
@@ -172,7 +149,7 @@ body {
 	top: 48px;
 }
 .zen-resources {
-	border: thin solid #FFFF00;
+	
 	float: left;
 	margin-left: 1.5%;
 	max-width: 700px;
@@ -182,7 +159,7 @@ body {
 	top: 1400px;
 }
 .design-archives {
-	border: thin solid #FFFF00;
+	
 	float: left;
 	margin-left: 1.5%;
 	max-width: 700px;
@@ -197,16 +174,150 @@ body {
 	clear: both;
 	margin-right: auto;
 	padding-right: 30px;
-	border: medium solid #F0F;
+
 min-width: 700px;
 }
-#css-zen-garden .page-wrapper #zen-supporting #zen-requirements:nth-child(5) {
-	border: medium solid #0FF;
-}
-.participation:hover {
-	border: thin dotted #FFF; 
-	border-width: 2px;
-	background-color: #015F96;
+a:link {
 	font-weight: bold;
+	color: #CCC;
+	text-decoration: none;
 }
 
+
+.zen-validate-html {
+	background-image: url(images/html5ico.png);
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	font-size: 0.1px;
+	color: transparent;
+		-webkit-transition: all .5s ease-in .2s;
+	-moz-transition: all .5s ease-in .2s;
+	-ms-transition: all .5s ease-in .2s;
+	-o-transition: all .5s ease-in .2s;
+	transition: all .5s ease-in .2s;
+}
+
+.zen-validate-html:hover {
+	background-image: url(images/html5hoverico.png);
+}
+ .zen-validate-css {
+	background-image: url(images/cssicco.png);
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	font-size: 0.1px;
+	color: transparent;
+		-webkit-transition: all .5s ease-in .2s;
+	-moz-transition: all .5s ease-in .2s;
+	-ms-transition: all .5s ease-in .2s;
+	-o-transition: all .5s ease-in .2s;
+	transition: all .5s ease-in .2s;
+}
+.zen-validate-css:hover {
+	background-image: url(images/cssicohover.png);
+}
+.zen-license {
+		background-image: url(images/ccico.png);
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	padding-top: 80px;
+	padding-right: 100px;
+	padding-bottom: 28px;
+	padding-left: 0px;
+	margin-top: 0px;
+
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	font-size: 0.1px;
+	color: transparent;
+		-webkit-transition: all .5s ease-in .2s;
+	-moz-transition: all .5s ease-in .2s;
+	-ms-transition: all .5s ease-in .2s;
+	-o-transition: all .5s ease-in .2s;
+	transition: all .5s ease-in .2s;
+}
+.zen-license:hover {
+	background-image: url(images/ccicohover.png);
+}
+.zen-accessibility {
+		background-image: url(images/allyico.png);
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	font-size: 0.1px;
+	color: transparent;
+		-webkit-transition: all .5s ease-in .2s;
+	-moz-transition: all .5s ease-in .2s;
+	-ms-transition: all .5s ease-in .2s;
+	-o-transition: all .5s ease-in .2s;
+	transition: all .5s ease-in .2s;
+} 
+.zen-accessibility:hover {
+	background-image: url(images/allyicohover.png);
+}
+.zen-github {
+			background-image: url(images/githubico.png);
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-right: 100px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	font-size: 0.1px;
+	color: transparent;
+		-webkit-transition: all .5s ease-in .2s;
+	-moz-transition: all .5s ease-in .2s;
+	-ms-transition: all .5s ease-in .2s;
+	-o-transition: all .5s ease-in .2s;
+	transition: all .5s ease-in .2s;
+}
+.zen-github:hover {
+	background-image: url(images/githubicohover.png);
+}
+footer {
+	clear: both;
+	position: relative;
+	top: 2400px;
+	text-align: center;
+	padding-bottom: 10rem;
+		
+}
+footer a:link { 
+	margin-right: 90px; 
+	}
