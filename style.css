@@ -181,6 +181,10 @@ padding-top: 200px;
 	width: 50%;
 	z-index: 4;
 	margin: auto;
+	 	background-attachment: fixed;
+	background-image: url(images/leftbgimg.png);
+	background-repeat: no-repeat;
+	background-position: left;
 		
 }
 .requirements {
@@ -192,9 +196,11 @@ padding-top: 200px;
 	top: 1400px;
 	width: 50%;
 	z-index: 4;
-
 	margin: auto;
-	
+	background-attachment: fixed;
+	background-image: url(images/manprint.png);
+	background-repeat: no-repeat;
+	background-position: left center;
 	}
 	.benefits {
 	
