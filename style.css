@@ -249,7 +249,7 @@ padding-top: 200px;
 	clear: both;
 	margin-right: auto;
 	padding-right: 30px;
-
+margin-left: 20px;
 min-width: 700px;
 }
 a:link {
@@ -396,3 +396,23 @@ footer {
 footer a:link { 
 	margin-right: 90px; 
 	}
+#css-zen-garden .page-wrapper #zen-supporting #zen-requirements p:last-child {
+	font-size: 34px;
+	font-weight: bold;
+	padding-left: 30px;
+	margin-left: 60px;
+	position: absolute;
+	top: auto;
+	bottom: -140px;
+	left: 10px;
+	width: 1900px;
+	visibility: hidden;
+   
+}
+#css-zen-garden .page-wrapper #zen-supporting #zen-requirements p:last-child:after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "By Kevin Hudson. Bandwidth graciously donated by mediatemple. Now available: Zen Garden, the book.";
+}
