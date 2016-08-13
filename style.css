@@ -25,43 +25,110 @@ body {
 	
 	}
 #css-zen-garden .page-wrapper #zen-intro header h1 {
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 46px;
-	color: #FFF;
-	text-transform: uppercase;
-	font-weight: bold;
+
+	color: transparent;
+	font-size: 0.01px;
+	text-transform: none;
+	font-weight: normal;
 	font-variant: normal;
-	word-spacing: .25em;
-	letter-spacing: .1em;
-	text-indent: 300px;
+	word-spacing: 0.25em;
+	letter-spacing: 0.1em;
+	text-indent: 200px;
 	display: block;
 	float: left;
-	background-image: url(images/arrowR.png);
+	background-image: url(images/h1title.png);
 	background-repeat: no-repeat;
-	background-position: 665px 50px;
-	padding-right: 300px;
 	margin-bottom: 1px;
-	height: 60px;
-
-	min-width: 700px;
+	height: 80px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-right: 600px;
+	
 }
 #css-zen-garden .page-wrapper #zen-intro header h2 {
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 16px;
-	display: block;
-	float: none;
-	clear: both;
-	margin: auto;
-	left: 0px;
-	clip: rect(auto,auto,auto,0px);
-	width: auto;
-	text-indent: 350px;
-	height: 50px;
-	padding: 20px;
-	text-align: left;
-
-	min-width: 940px;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 16px;
+display: block;
+float: none;
+clear: both;
+left: 0px;
+clip: rect(auto,auto,auto,0px);
+width: auto;
+text-indent: 350px;
+height: 50px;
+text-align: left;
+background-image: url(images/arrowR.png);
+background-repeat: no-repeat;
+padding-top: 20px;
+padding-right: 100px;
+padding-bottom: 20px;
+padding-left: 0px;
+background-position: right top;
+margin-top: auto;
+margin-right: 800px;
+margin-bottom: auto;
+margin-left: auto;
 }
+h3 {
+	font-size: 34px;
+}
+
+
+#css-zen-garden .page-wrapper .sidebar .wrapper #design-selection .select {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #CCC;
+	padding-left: 5px;
+	
+}
+.design-selection {
+	position: fixed;
+	top: 35px;
+	width: 10%;
+	margin-left: 1.5%;
+	padding-bottom: 0px;
+		background-image: url(images/asidelable1.png);
+	left: 1550px;
+	width: 100%;
+	height: 10%;
+	top: 48px;
+	transition: 1.0s;
+z-index: 999;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+#css-zen-garden .page-wrapper .sidebar .wrapper #design-selection nav ul li {
+	list-style-type: none;
+	font-size: 24px;
+	padding-left: 300px;
+	width: 600px;
+	
+		
+}
+
+.design-selection:hover {
+		left: 1050px;
+	height: 50%;
+	
+}
+
+
+.design-selection:hover {
+		left: 1050px;
+	height: 50%;
+}
+
 .supporting {
 	
 	float: left;
@@ -94,10 +161,16 @@ body {
 	max-width: 600px;
 	padding-bottom: 15px;
 	position: absolute;
-	left: 56%;
+	left: 50%;
 	width: 50%;
-	top: 275px;
+	top: 65px;
+background-image: url(images/topviewlogo.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+padding-top: 200px;
+	padding-left: 60px;
 }
+
 .participation {
 	clear: left;
 	float: left;
@@ -130,34 +203,15 @@ body {
 	max-width: 600px;
 	padding-bottom: 15px;
 	position: absolute;
-	left: 56%;
+	left: 50%;
 	top: 800px;
 		padding-bottom: 500px;
 		background-image: url(images/blueprint1.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-.design-selection {
-	
-	float: none;
-	margin-left: 1.5%;
-	max-width: 495px;
-	padding-bottom: 15px;
-	position: absolute;
-	left: 56%;
-	width: 50%;
-	top: 48px;
-}
-.zen-resources {
-	
-	float: left;
-	margin-left: 1.5%;
-	max-width: 700px;
-	padding-bottom: 15px;
-	position: relative;
-	left: 66%;
-	top: 1400px;
-}
+
+
 .design-archives {
 	
 	float: left;
@@ -165,8 +219,29 @@ body {
 	max-width: 700px;
 	padding-bottom: 15px;
 	position: relative;
-	left: 60%;
+	left: 50%;
 	top: 1400px;
+	font-size: 34px;
+}
+.design-archives ul li {
+		list-style: none;
+	font-size: 24px;
+}
+
+.zen-resources {
+	float: left;
+	margin-left: 1.5%;
+	max-width: 700px;
+	padding-bottom: 15px;
+	position: relative;
+	left: 50%;
+	top: 1400px;
+	font-size: 34px;
+}
+.zen-resources ul li {
+	list-style: none;
+	font-size: 24px;
+	
 }
 #css-zen-garden .page-wrapper #zen-intro #zen-summary {
 	width: 50%;
